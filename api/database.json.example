@@ -1,0 +1,516 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "moniker": "Green Wyverns"
+    },
+    {
+      "id": 2,
+      "moniker": "Killer Wenches"
+    },
+    {
+      "id": 3,
+      "moniker": "Black Knights"
+    },
+    {
+      "moniker": "Wretched Harpies",
+      "id": 4
+    },
+    {
+      "moniker": "Golden Gryphons",
+      "id": 5
+    },
+    {
+      "moniker": "Hell Hounds",
+      "id": 6
+    },
+    {
+      "moniker": "Drunk Abbots",
+      "id": 7
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "firstName": "Albion",
+      "lastName": "Bruchard",
+      "teamId": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Jean",
+      "lastName": "Lefebvre",
+      "teamId": 1
+    },
+    {
+      "id": 3,
+      "firstName": "Michel",
+      "lastName": "Braille",
+      "teamId": 1
+    },
+    {
+      "id": 4,
+      "firstName": "Aline",
+      "lastName": "Moreau",
+      "teamId": 2
+    },
+    {
+      "id": 5,
+      "firstName": "Manon",
+      "lastName": "Fontaine",
+      "teamId": 2
+    },
+    {
+      "id": 6,
+      "firstName": "Ophélie",
+      "lastName": "Roussel",
+      "teamId": 2
+    },
+    {
+      "firstName": "Steve",
+      "lastName": "Brownlee",
+      "teamId": 3,
+      "id": 8
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Hoefling",
+      "teamId": 3,
+      "id": 9
+    },
+    {
+      "firstName": "Kristen",
+      "lastName": "Norris",
+      "teamId": 3,
+      "id": 10
+    },
+    {
+      "firstName": "Meg",
+      "lastName": "Ducharme",
+      "teamId": 5,
+      "id": 11
+    },
+    {
+      "firstName": "Caitlin",
+      "lastName": "Stein",
+      "teamId": 5,
+      "id": 12
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Tanay",
+      "teamId": 5,
+      "id": 13
+    },
+    {
+      "firstName": "Hannah",
+      "lastName": "Hall",
+      "teamId": 4,
+      "id": 14
+    },
+    {
+      "firstName": "Bryan",
+      "lastName": "Nilsen",
+      "teamId": 4,
+      "id": 15
+    },
+    {
+      "firstName": "Greg",
+      "lastName": "Korte",
+      "teamId": 4,
+      "id": 16
+    },
+    {
+      "firstName": "Kimmy",
+      "lastName": "Bird",
+      "teamId": 6,
+      "id": 17
+    },
+    {
+      "firstName": "Jenna",
+      "lastName": "Solis",
+      "teamId": 6,
+      "id": 18
+    },
+    {
+      "firstName": "Mo",
+      "lastName": "Silvera",
+      "teamId": 6,
+      "id": 19
+    },
+    {
+      "firstName": "Barry",
+      "lastName": "White",
+      "teamId": 7,
+      "id": 20
+    },
+    {
+      "firstName": "Nick",
+      "lastName": "Hansen",
+      "teamId": 7,
+      "id": 21
+    }
+  ],
+  "teamScores": [
+    {
+      "id": 1,
+      "teamId": 1,
+      "score": 5,
+      "timeStamp": 1580391255824
+    },
+    {
+      "id": 2,
+      "teamId": 2,
+      "score": 8,
+      "timeStamp": 1580391255824
+    },
+    {
+      "id": 3,
+      "teamId": 3,
+      "score": 4,
+      "timeStamp": 1580391255824
+    },
+    {
+      "id": 4,
+      "teamId": 1,
+      "score": 6,
+      "timeStamp": 1580403255015
+    },
+    {
+      "id": 5,
+      "teamId": 2,
+      "score": 5,
+      "timeStamp": 1580403255015
+    },
+    {
+      "id": 6,
+      "teamId": 3,
+      "score": 7,
+      "timeStamp": 1580403255015
+    },
+    {
+      "teamId": 3,
+      "score": 3,
+      "timestamp": 1580479634552,
+      "id": 7
+    },
+    {
+      "teamId": 4,
+      "score": 3,
+      "timestamp": 1580479634552,
+      "id": 8
+    },
+    {
+      "teamId": 6,
+      "score": 3,
+      "timestamp": 1580479634552,
+      "id": 9
+    },
+    {
+      "teamId": 1,
+      "score": 1,
+      "timestamp": 1580479834243,
+      "id": 10
+    },
+    {
+      "teamId": 4,
+      "score": 2,
+      "timestamp": 1580479834243,
+      "id": 11
+    },
+    {
+      "teamId": 5,
+      "score": 6,
+      "timestamp": 1580479834243,
+      "id": 12
+    },
+    {
+      "teamId": 1,
+      "score": 3,
+      "timestamp": 1580480107067,
+      "id": 13
+    },
+    {
+      "teamId": 4,
+      "score": 3,
+      "timestamp": 1580480107067,
+      "id": 14
+    },
+    {
+      "teamId": 6,
+      "score": 3,
+      "timestamp": 1580480107067,
+      "id": 15
+    },
+    {
+      "teamId": 6,
+      "score": 3,
+      "timestamp": 1580480196079,
+      "id": 16
+    },
+    {
+      "teamId": 1,
+      "score": 3,
+      "timestamp": 1580480196079,
+      "id": 17
+    },
+    {
+      "teamId": 4,
+      "score": 3,
+      "timestamp": 1580480196079,
+      "id": 18
+    },
+    {
+      "teamId": 6,
+      "score": 6,
+      "timestamp": 1580480248807,
+      "id": 19
+    },
+    {
+      "teamId": 5,
+      "score": 2,
+      "timestamp": 1580480248807,
+      "id": 20
+    },
+    {
+      "teamId": 2,
+      "score": 1,
+      "timestamp": 1580480248807,
+      "id": 21
+    },
+    {
+      "teamId": 3,
+      "score": 4,
+      "timestamp": 1580484529401,
+      "id": 22
+    },
+    {
+      "teamId": 6,
+      "score": 2,
+      "timestamp": 1580484529401,
+      "id": 23
+    },
+    {
+      "teamId": 5,
+      "score": 4,
+      "timestamp": 1580484529401,
+      "id": 24
+    },
+    {
+      "teamId": 6,
+      "score": 5,
+      "timestamp": 1580484756211,
+      "id": 25
+    },
+    {
+      "teamId": 5,
+      "score": 2,
+      "timestamp": 1580484756211,
+      "id": 26
+    },
+    {
+      "teamId": 2,
+      "score": 3,
+      "timestamp": 1580484756211,
+      "id": 27
+    },
+    {
+      "teamId": 7,
+      "score": 12,
+      "timestamp": 1580488310380,
+      "id": 28
+    },
+    {
+      "teamId": 8,
+      "score": 12,
+      "timestamp": 1580488310380,
+      "id": 29
+    },
+    {
+      "teamId": 9,
+      "score": 12,
+      "timestamp": 1580488310380,
+      "id": 30
+    },
+    {
+      "teamId": 2,
+      "score": 3,
+      "timestamp": 1580488340079,
+      "id": 31
+    },
+    {
+      "teamId": 4,
+      "score": 3,
+      "timestamp": 1580488340079,
+      "id": 32
+    },
+    {
+      "teamId": 6,
+      "score": 3,
+      "timestamp": 1580488340079,
+      "id": 33
+    },
+    {
+      "teamId": 3,
+      "score": 6,
+      "timestamp": 1580508546389,
+      "id": 34
+    },
+    {
+      "teamId": 5,
+      "score": 2,
+      "timestamp": 1580508546389,
+      "id": 35
+    },
+    {
+      "teamId": 7,
+      "score": 3,
+      "timestamp": 1580508546389,
+      "id": 36
+    },
+    {
+      "teamId": 1,
+      "score": 3,
+      "timestamp": 1580516224964,
+      "id": 37
+    },
+    {
+      "teamId": 4,
+      "score": 4,
+      "timestamp": 1580516224964,
+      "id": 38
+    },
+    {
+      "teamId": 6,
+      "score": 2,
+      "timestamp": 1580516224964,
+      "id": 39
+    },
+    {
+      "teamId": 1,
+      "score": 3,
+      "timestamp": 1580517440822,
+      "id": 40
+    },
+    {
+      "teamId": 5,
+      "score": 4,
+      "timestamp": 1580517440822,
+      "id": 41
+    },
+    {
+      "teamId": 7,
+      "score": 2,
+      "timestamp": 1580517440822,
+      "id": 42
+    },
+    {
+      "teamId": 7,
+      "score": 3,
+      "timestamp": 1580517565553,
+      "id": 43
+    },
+    {
+      "teamId": 5,
+      "score": 1,
+      "timestamp": 1580517565553,
+      "id": 44
+    },
+    {
+      "teamId": 3,
+      "score": 5,
+      "timestamp": 1580517565553,
+      "id": 45
+    },
+    {
+      "teamId": 2,
+      "score": 4,
+      "timestamp": 1580530946922,
+      "id": 46
+    },
+    {
+      "teamId": 1,
+      "score": 0,
+      "timestamp": 1580530946922,
+      "id": 47
+    },
+    {
+      "teamId": 6,
+      "score": 5,
+      "timestamp": 1580530946922,
+      "id": 48
+    },
+    {
+      "teamId": 2,
+      "score": 3,
+      "timestamp": 1580534384089,
+      "id": 49
+    },
+    {
+      "teamId": 1,
+      "score": 2,
+      "timestamp": 1580534384089,
+      "id": 50
+    },
+    {
+      "teamId": 6,
+      "score": 4,
+      "timestamp": 1580534384089,
+      "id": 51
+    },
+    {
+      "teamId": 1,
+      "score": 4,
+      "timestamp": 1580535822630,
+      "id": 52
+    },
+    {
+      "teamId": 3,
+      "score": 2,
+      "timestamp": 1580535822630,
+      "id": 53
+    },
+    {
+      "teamId": 5,
+      "score": 3,
+      "timestamp": 1580535822630,
+      "id": 54
+    },
+    {
+      "teamId": 3,
+      "score": 3,
+      "timestamp": 1580569878474,
+      "id": 55
+    },
+    {
+      "teamId": 7,
+      "score": 5,
+      "timestamp": 1580569878474,
+      "id": 56
+    },
+    {
+      "teamId": 2,
+      "score": 1,
+      "timestamp": 1580569878474,
+      "id": 57
+    },
+    {
+      "teamId": 4,
+      "score": 6,
+      "timestamp": 1580622414134,
+      "id": 58
+    },
+    {
+      "teamId": 5,
+      "score": 1,
+      "timestamp": 1580622414134,
+      "id": 59
+    },
+    {
+      "teamId": 2,
+      "score": 2,
+      "timestamp": 1580622414134,
+      "id": 60
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+.teams {
+    padding-right: 1rem;
+}
+
+.teams__list {
+    overflow-y: scroll;
+    max-height: 15rem;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.team__column {
+    flex: 2;
+}
+
+.team__columnHeader {
+    flex: 2;
+    text-decoration: underline;
+}
+
+.team__name {
+    flex: 5;
+}
+
+.team__playerCount {
+    flex: 2;
+    text-align: center;
+}
+
+.team__score {
+    text-align: center;
+}
+
+.inactive {
+    color: firebrick;
+    font-style: oblique;
+}
+
+.highlight {
+    animation: highlightTeam 2s steps(10) forwards alternate;
+}
+
+@keyframes highlightTeam {
+    0% {
+        background-color: white;
+        border: none;
+    }
+    50% {
+        background-color: plum;
+    }
+    100% {
+        background-color: white;
+        border: none;
+    }
+}

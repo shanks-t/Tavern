@@ -1,0 +1,42 @@
+
+.game {
+    display: flex;
+    flex-direction: column;
+    flex: 7;
+}
+
+.header {
+    flex: 1;
+    font-family: 'Uncial Antiqua', Arial, sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: center;
+    padding: 0.5em 0 0 1em;
+}
+
+.gamePlay {
+    position: relative;
+    flex: 10;
+}
+
+.btn--startGame {
+    background-color: rgb(88, 177, 218);
+    padding: 2em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -5em;
+    margin-top: -8em;
+    text-align: center;
+    line-height: 2.3em;
+    border: 0.25em dashed darkcyan;
+}
+
+.entryForm {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.entryForm__dropdown {
+    margin: 0.35em 0 0 0;
+}

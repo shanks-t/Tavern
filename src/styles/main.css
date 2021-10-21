@@ -1,0 +1,167 @@
+@import './buttons.css';
+@import './teams.css';
+@import './gameplay.css';
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One|Uncial+Antiqua');
+/*Typography
+--------------------------------------------------------------*/
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, textarea {
+    color: #404040;
+    font-family: 'Comfortaa', Arial, sans-serif;
+    font-size: 1.10rem;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0.5rem 0;
+    border: 0;
+}
+
+input, select, textarea {
+    font-family: Comfortaa, Arial, sans-serif;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patua One', serif;
+    letter-spacing: 2px;
+}
+
+dialog {
+    z-index: 12;
+    width: 50%;
+    min-height: 20%;
+}
+
+.message {
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+}
+
+.button--close {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    border: 1px solid rgba(31, 79, 109, 0.5);
+    background-color: rgba(44, 155, 225, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.area {
+    padding: 0.3rem 2rem;
+    border: 1px dotted darkslategray;
+}
+
+.data {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: stretch;
+    font-size: 1.1rem;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 1080px) {
+    .data {
+        flex: 4.3;
+        font-size: medium;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .data {
+        flex: 3.5;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .data {
+        flex: 2.5;
+    }
+}
+
+.teamForm {
+    flex: 1.5;
+    min-height: 5em;
+}
+
+.playerForm {
+    flex: 2.2;
+    min-height: 5em;
+}
+
+.gameScores {
+    flex: 1.5;
+    min-height: 5em;
+}
+
+.leaderboard {
+    flex: 3;
+    min-height: 5em;
+}
+
+.fakeLink {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    background: none!important;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.fakeLink:hover {
+    font-weight: bold;
+}
